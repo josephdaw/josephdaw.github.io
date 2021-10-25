@@ -55,7 +55,7 @@
       <div class="col s12 m4 l3">
         <!-- about me section -->
         <section id="about">
-          <h2>About Me</h2>
+          <h2 class="center-align">About Me</h2>
           <!-- <div class="about-me"> -->
           <img src="assets/img/joseph.jpg" alt="Joseph Daw in a blue suit with a red tie">
           <article>
@@ -74,9 +74,11 @@
         </section>
       </div>
 
-      <!-- main content -->
-      <div class="col s12 m8 l9">
+      <!-- portfolio content -->
+      <div id="portfolio" class="col s12 m8 l9">
+        <h2 class="center-align">Portfolio</h2>
         <!-- portfolio items -->
+        <!-- item -->
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/img/css-snippet-cheatsheet.png">
@@ -93,9 +95,33 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">CSS Snippet Cheatsheet<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <p>A responsive webpage for some helpful CSS code snippets. 
+              This project focused on creating a responsive webpage using CSS grid, flexbox, and media queries. 
+              This page conformed to the "mobile first" design principle.</p>
           </div>
-        </div>
+        </div> <!-- end item -->
+
+        <!-- item -->
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/img/rock-paper-scissors.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">CSS Snippet Cheatsheet
+              <i class="material-icons right">more_vert</i></span>
+              <p>HTML | CSS | JavaScript
+              </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/josephdaw/rock-paper-scissors" target="_blank">GitHub</a>
+            <a href="https://josephdaw.github.io/rock-paper-scissors/" target="_blank">Live page</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">CSS Snippet Cheatsheet<i class="material-icons right">close</i></span>
+            <p>A JavaScript version of the popular game Rock Paper Scissors. This website is a responsive HTML website using semantic tags, CSS, and JavaScript. 
+              I designed the site using a "mobile first" philosophy and have tried to make it fit without scrolling on as many screen sizes as possible.</p>
+          </div>
+        </div> <!-- end item -->
       </div>
     </div>
 
@@ -161,8 +187,9 @@
 
 
     <!-- contact section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
+    <div class="divider"></div>
+    <section id="contact" class="container">
+      <h2 class="center-align">Contact Me</h2>
       <div class="text-center">
         <p>
           Learn more about me by checking out my
