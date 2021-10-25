@@ -1,163 +1,224 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <!-- meta tags -->
-    <meta charset="utf-8">
-    <!-- let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-    <!-- links to external styles -->
-    <!-- materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-    <!-- custom css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-  
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-  
-    <!-- page title -->
-    <title>Joseph Daw | Portfolio</title>
-  </head>
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <!-- let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <header>
-      <h1>Joseph Daw</h1>
+  <!-- links to external styles -->
+  <!-- materialize.css-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-      <!-- main site navigation -->
-      <nav>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-    <main>
-      <div class="newspaper">
+  <!-- page title -->
+  <title>Joseph Daw | Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <!-- main site navigation -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Joseph Daw</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="mobile.html">Mobile</a></li> -->
+        </ul>
+      </div>
+    </nav>
+    <!-- mobile side menu -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </header>
+
+  <main>
+    <!-- Page Layout here -->
+    <div class="row">
+      <!-- left side bar -->
+      <div class="col s12 m4 l3">
         <!-- about me section -->
-        <section id="about" class="left">
+        <section id="about">
           <h2>About Me</h2>
-          <div class="about-me">
-            <img src="assets/img/joseph.jpg" alt="Joseph Daw in a blue suit with a red tie">
-            <article>
-              <p>I am a full stack web developer based in Adelaide, South Australia.
-                I have a passion for creating innovative solutions.
-              </p>
-              <p>I have been tinkering with technology for over a decade. Teaching myself different programming languages.
-                At several of my workplaces I have been responsible for creating solutions that have helped to
-                streamline the business.
-              </p>
-              <p>I started the Adelaide University Coding Bootcamp in August 2021. Currently, I am learning HTML and CSS.
-              </p>
-            </article>
-          </div>
+          <!-- <div class="about-me"> -->
+          <img src="assets/img/joseph.jpg" alt="Joseph Daw in a blue suit with a red tie">
+          <article>
+            <p>I am a full stack web developer based in Adelaide, South Australia.
+              I have a passion for creating innovative solutions.
+            </p>
+            <p>I have been tinkering with technology for over a decade. Teaching myself different programming
+              languages.
+              At several of my workplaces I have been responsible for creating solutions that have helped to
+              streamline the business.
+            </p>
+            <p>I started the Adelaide University Coding Bootcamp in August 2021. Currently, I am learning HTML and
+              CSS.
+            </p>
+          </article>
         </section>
-      
-        <!-- portfolio section -->
-        <section id="portfolio" class="right">
-          <h2>Portfolio</h2>
-          <p class="text-center">Click on the pictures below to view a collection of live projects I have created. You can
-            also visit my
-            <a href="http://www.github.com/josephdaw" target="_blank">GitHub</a> profile to view the source code.
-          </p>
-      
-          <!-- flex arrangement of portfolio items -->
-          <div class="portfolio">
-      
-            <!-- portfolio items -->
-            <article class="card">
-              <a href="https://josephdaw.github.io/css-cheat-sheet/" target="_blank">
-                <div class="card-header">
-                  <h3>CSS Code Cheatsheet</h3>
-                  <p>HTML | CSS</p>
-                </div>
-                <img class="img-top" src="assets/img/css-snippet-cheatsheet.png" alt="screenshot of CSS Snippet Website" />
-              </a>
-            </article>
-      
-            <article class="card">
-              <a href="https://josephdaw.github.io/css-cheat-sheet/" target="_blank">
-                <div class="card-header">
-                  <h3>Code Refactor</h3>
-                  <p>HTML | CSS</p>
-                </div>
-                <img class="img-top" src="assets/img/marketing-refactor.png" alt="" />
-              </a>
-            </article>
-      
-            <article class="card">
-              <a href="https://josephdaw.github.io/rock-paper-scissors/" target="_blank">
-                <div class="card-header">
-                  <h3>Rock Paper Scissors</h3>
-                  <p>HTML | CSS | JavaScript</p>
-                </div>
-                <img class="img-centre" src="assets/img/rock-paper-scissors.png" alt="face of the clown from 'SAW' with heading Rock Paper Scissors" />
-              </a>
-            </article>
-
-            <article class="card">
-              <a href="https://josephdaw.github.io/work-day-planner/" target="_blank">
-                <div class="card-header">
-                  <h3>Work Day Planner</h3>
-                  <p>HTML | CSS | JavaScript</p>
-                </div>
-                <img class="img-centre" src="assets/img/work-day-planner.png" alt="face of the clown from 'SAW' with heading Rock Paper Scissors" />
-              </a>
-            </article>
-
-          </div>
       </div>
-      
-      <!-- contact section -->
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <div class="text-center">
-          <p>
-            Learn more about me by checking out my 
-            <a href="https://www.linkedin.com/in/joseph-daw" target="_blank">LinkedIn</a> profile.
-          </p>
-          <p>
-            Reach out to me by email via <a href="mailto:info@josephdaw.com">info@josephdaw.com</a>
-            or follow me on <a href="https://twitter.com/Joseph_Daw" target="_blank">Twitter</a>
-          </p>
-          <p>
-            You can also view the code repositories for my projects on <a href="http://www.github.com/josephdaw" target="_blank">GitHub.</a>
-          </p>
-        </div>
 
-      </section>
-    </main>
-    
-    <!-- footer -->
-    <footer class="page-footer">
+      <!-- main content -->
+      <div class="col s12 m8 l9">
+        <!-- portfolio items -->
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/img/css-snippet-cheatsheet.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">CSS Snippet Cheatsheet
+              <i class="material-icons right">more_vert</i></span>
+              <p>HTML | CSS 
+              </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/josephdaw/css-cheat-sheet" target="_blank">GitHub</a>
+            <a href="https://josephdaw.github.io/css-cheat-sheet/" target="_blank">Live page</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">CSS Snippet Cheatsheet<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- portfolio section -->
+    <!-- <section id="portfolio" class="right">
+        <h2>Portfolio</h2>
+        <p class="text-center">Click on the pictures below to view a collection of live projects I have created. You can
+          also visit my
+          <a href="http://www.github.com/josephdaw" target="_blank">GitHub</a> profile to view the source code.
+        </p> -->
+
+    <!-- flex arrangement of portfolio items -->
+    <!-- <div class="portfolio"> -->
+
+
+    <!-- old -->
+    <!-- <article class="card">
+            <a href="https://josephdaw.github.io/css-cheat-sheet/" target="_blank">
+              <div class="card-header">
+                <h3>CSS Code Cheatsheet</h3>
+                <p>HTML | CSS</p>
+              </div>
+              <img class="img-top" src="assets/img/css-snippet-cheatsheet.png"
+                alt="screenshot of CSS Snippet Website" />
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="https://josephdaw.github.io/css-cheat-sheet/" target="_blank">
+              <div class="card-header">
+                <h3>Code Refactor</h3>
+                <p>HTML | CSS</p>
+              </div>
+              <img class="img-top" src="assets/img/marketing-refactor.png" alt="" />
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="https://josephdaw.github.io/rock-paper-scissors/" target="_blank">
+              <div class="card-header">
+                <h3>Rock Paper Scissors</h3>
+                <p>HTML | CSS | JavaScript</p>
+              </div>
+              <img class="img-centre" src="assets/img/rock-paper-scissors.png"
+                alt="face of the clown from 'SAW' with heading Rock Paper Scissors" />
+            </a>
+          </article>
+
+          <article class="card">
+            <a href="https://josephdaw.github.io/work-day-planner/" target="_blank">
+              <div class="card-header">
+                <h3>Work Day Planner</h3>
+                <p>HTML | CSS | JavaScript</p>
+              </div>
+              <img class="img-centre" src="assets/img/work-day-planner.png"
+                alt="face of the clown from 'SAW' with heading Rock Paper Scissors" />
+            </a>
+          </article>
+
+        </div> -->
+
+
+    <!-- contact section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="text-center">
+        <p>
+          Learn more about me by checking out my
+          <a href="https://www.linkedin.com/in/joseph-daw" target="_blank">LinkedIn</a> profile.
+        </p>
+        <p>
+          Reach out to me by email via <a href="mailto:info@josephdaw.com">info@josephdaw.com</a>
+          or follow me on <a href="https://twitter.com/Joseph_Daw" target="_blank">Twitter</a>
+        </p>
+        <p>
+          You can also view the code repositories for my projects on <a href="http://www.github.com/josephdaw"
+            target="_blank">GitHub.</a>
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Find Me</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="http://www.github.com/josephdaw" target="_blank">GitHub</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="http://www.josephdaw.com/blog" target="_blank">Blog</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/Joseph_Daw" target="_blank">Twitter</a>
+            </li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/joseph-daw"
+                target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Find Me</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="http://www.github.com/josephdaw" target="_blank">GitHub</a></li>
-              <li><a class="grey-text text-lighten-3" href="http://www.josephdaw.com/blog" target="_blank">Blog</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://twitter.com/Joseph_Daw" target="_blank">Twitter</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/joseph-daw" target="_blank">LinkedIn</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          &copy; 2021 Joseph Daw
+        &copy; 2021 Joseph Daw
         <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-        </div>
       </div>
-    </footer>
-    
-  </body>
+    </div>
+  </footer>
+
+  <!-- script links -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- materialize -->
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
 
 </html>
