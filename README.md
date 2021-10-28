@@ -2,17 +2,31 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This website is a responsive HTML website using semantic tags and CSS. It was designed using a "mobile first" philosophy.
+This is a responsive website designed using a "mobile first" philosophy to showcase my programming projects.
 
-You can [view this site](https://josephdaw.github.io/) on Github Pages at https://josephdaw.github.io/.
+As I learn new technologies and improve my coding skills I plan to update this page accordingly. I will leave the previous comments with links to the various iterations as an homage to the development journey.
 
-![site preview](assets/img/portfolio-site-screenshot.png)
+You can [view the current version](https://josephdaw.github.io/) on Github Pages at https://josephdaw.github.io/.
 
+## Iteration #2
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E)
+![MaterializeCSS](https://img.shields.io/badge/materialize-ee6e73.svg)
 
-## Lessons
+With this version I wanted to experiment with a framework that I hadn't used before. I ended up settling on [MaterializeCSS](https://materializecss.com/). I have found it to be a pretty user-friendly framework. The documentation has been easy enough to follow. The main hurdle is probably sorting out the colour scheme.
+
+![site version two preview](assets/img/portfolio-v2-screenshot.png)
+
+## Iteration #1
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&logo=css3&logoColor=white)
+
 As the focus of this site has been responsive design, I have used CSS flex-box extensively to acheive this objective. This project has been a good, and sometimes painful, lesson in how to display a site responsively. This is one of the first website I have designed from the ground up, certainly the first one that is responsive.
 
 This project has really cemented why developer tools like Chrome DevTools is such a powerful and useful resource. Up until now I have played around with it, without fully appreciating just how much it can assist with finding out how to achieve the style you are trying to achieve.
+![site version one preview](assets/img/portfolio-v1-screenshot.png)
+
 
 ## License
 This project is released under the [MIT License](LICENSE).
