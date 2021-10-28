@@ -1,10 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.sidenav');
-//     var instances = M.Sidenav.init(elems, options);
-//   });
-
-  // Or with jQuery
-
+// sidebar menu
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });
