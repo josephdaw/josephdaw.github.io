@@ -25,6 +25,7 @@ With this version I wanted to experiment with a framework that I hadn't used bef
 As the focus of this site has been responsive design, I have used CSS flex-box extensively to acheive this objective. This project has been a good, and sometimes painful, lesson in how to display a site responsively. This is one of the first website I have designed from the ground up, certainly the first one that is responsive.
 
 This project has really cemented why developer tools like Chrome DevTools is such a powerful and useful resource. Up until now I have played around with it, without fully appreciating just how much it can assist with finding out how to achieve the style you are trying to achieve.
+
 ![site version one preview](assets/img/portfolio-v1-screenshot.png)
 
 
