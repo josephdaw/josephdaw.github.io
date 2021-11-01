@@ -11,3 +11,7 @@ main {
 img {
     max-width: 100%;
 }
+
+.nav-wrapper {
+    padding: 0 0.75em;
+}
