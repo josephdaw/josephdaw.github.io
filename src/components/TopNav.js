@@ -2,17 +2,19 @@ import React from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Container from 'react-bootstrap/Container'
 
 export default function TopNav() {
     return (
         <Navbar collapseOnSelect expand="md" bg="primary" variant="dark">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Container>
+                <Navbar.Brand href="#home">Joseph Daw</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#about">About Me</Nav.Link>
+                        <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -21,12 +23,11 @@ export default function TopNav() {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
+                        <Nav.Link href="#contact">Contact Me</Nav.Link>
+                        <Nav.Link eventKey={2} href="#resume">My Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+            </Container>
         </Navbar>
     );
 }

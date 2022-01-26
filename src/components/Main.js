@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 // importing components
 import Project from './Project';
 import TopNav from './TopNav';
+import ProjectCards from './ProjectCards'
 
 
 
@@ -15,9 +16,7 @@ const Main = () => {
   return (
     <div>
       <TopNav></TopNav>
-          {projects.map(project => (<Project 
-            project={project}>
-          </Project>))}
+      <ProjectCards projects={projects}></ProjectCards>
     </div>
   );
 };
