@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 export default function TopNav() {
     return (
-        <Navbar collapseOnSelect expand="md" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="md" bg="primary" variant="dark" sticky='top'>
             <Container>
                 <Navbar.Brand href="#home">Joseph Daw</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

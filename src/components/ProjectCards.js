@@ -1,13 +1,17 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 
 function Project({ projects }) {
   return (
-    <CardGroup>
-      {projects.map(project => (
+<Row xs={1} md={2} lg={3} className="g-4">
+{projects.map(project => (
+    <Col>
         <Card key={project.id}>
-          <Card.Img variant="top" src={project.imgScr} />
+          <Image src={project.imgSrc} ></Image>
           <Card.Body>
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>
@@ -21,9 +25,9 @@ function Project({ projects }) {
             </small>
           </Card.Footer>
         </Card>
-      ))}
-
-    </CardGroup>
+    </Col>
+  ))}
+</Row>
   );
 }
 
