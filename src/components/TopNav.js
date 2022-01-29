@@ -24,7 +24,7 @@ export default function TopNav() {
                     </Nav>
                     <Nav>
                         <Nav.Link href="#contact">Contact Me</Nav.Link>
-                        <Nav.Link eventKey={2} href="#resume">My Resume</Nav.Link>
+                        <Nav.Link href="../joseph-daw-resume.pdf" download>My Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
