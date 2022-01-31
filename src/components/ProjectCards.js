@@ -21,7 +21,10 @@ function Project({ projects }) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">
+            <small className="text-muted" style={{
+    display: 'flex',
+    justifyContent: 'space-around'
+}}>
               <a href={project.liveUrl}>Live Site</a>
               <a href={project.githubUrl}>GitHub</a>
             </small>
