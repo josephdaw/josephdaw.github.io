@@ -5,7 +5,10 @@ import Col from 'react-bootstrap/Col'
 
 function About() {
   return (
-<Row id="about" xs={1} md={2} lg={3} className="g-4">
+<Row id="about" xs={1} md={2} lg={3} className="g-4" style={{
+    marginLeft: '0px',
+    marginRight: '0px',
+}}>
     <Col>
         <h2>Hi, my name is Joe</h2>
         <h4>A full stack web developer with a background in Aviation</h4>

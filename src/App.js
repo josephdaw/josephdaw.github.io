@@ -8,7 +8,7 @@ import { projects } from './projects';
 
 function App() {
   return (
-    <div>
+    <div id="home">
       <TopNav></TopNav>
       <About></About>
       <ProjectCards projects={projects}></ProjectCards>

@@ -6,7 +6,10 @@ import Image from 'react-bootstrap/Image'
 
 function Project({ projects }) {
   return (
-<Row id="portfolio" xs={1} md={2} lg={3} className="g-4">
+<Row id="portfolio" xs={1} md={2} lg={3} className="g-4" style={{
+    marginLeft: '0px',
+    marginRight: '0px',
+}}>
 {projects.map(project => (
     <Col>
         <Card key={project.id}>
