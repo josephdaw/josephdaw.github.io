@@ -1,13 +1,12 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 
 function Project({ projects }) {
   return (
-<Row xs={1} md={2} lg={3} className="g-4">
+<Row id="portfolio" xs={1} md={2} lg={3} className="g-4">
 {projects.map(project => (
     <Col>
         <Card key={project.id}>
