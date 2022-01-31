@@ -3,6 +3,7 @@ import TopNav from './components/TopNav';
 import ProjectCards from './components/ProjectCards'
 import About from './components/About'
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 // importing project information
 import { projects } from './projects';
@@ -14,6 +15,7 @@ function App() {
       <About></About>
       <ProjectCards projects={projects}></ProjectCards>
       <Contact></Contact>
+      <Footer />
     </div>
   );
 };
