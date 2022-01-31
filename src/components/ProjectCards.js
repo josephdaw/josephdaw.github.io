@@ -9,6 +9,8 @@ function Project({ projects }) {
 <Row id="portfolio" xs={1} md={2} lg={3} className="g-4" style={{
     marginLeft: '0px',
     marginRight: '0px',
+    paddingTop: '58px',
+    marginTop: '-58px',
 }}>
 {projects.map(project => (
     <Col>

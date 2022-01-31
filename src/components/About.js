@@ -8,6 +8,8 @@ function About() {
 <Row id="about" xs={1} md={2} lg={3} className="g-4" style={{
     marginLeft: '0px',
     marginRight: '0px',
+    paddingTop: '58px',
+    marginTop: '-58px',
 }}>
     <Col>
         <h2>Hi, my name is Joe</h2>

@@ -2,6 +2,7 @@
 import TopNav from './components/TopNav';
 import ProjectCards from './components/ProjectCards'
 import About from './components/About'
+import Contact from './components/Contact';
 
 // importing project information
 import { projects } from './projects';
@@ -12,6 +13,7 @@ function App() {
       <TopNav></TopNav>
       <About></About>
       <ProjectCards projects={projects}></ProjectCards>
+      <Contact></Contact>
     </div>
   );
 };
