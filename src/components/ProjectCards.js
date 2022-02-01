@@ -1,0 +1,41 @@
+import React from "react";
+import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+
+function Project({ projects }) {
+  return (
+<Row id="portfolio" xs={1} md={2} lg={3} className="g-4" style={{
+    marginLeft: '0px',
+    marginRight: '0px',
+    paddingTop: '58px',
+    marginTop: '-58px',
+}}>
+{projects.map(project => (
+    <Col>
+        <Card key={project.id}>
+          <Image src={project.imgSrc} ></Image>
+          <Card.Body>
+            <Card.Title>{project.title}</Card.Title>
+            <Card.Text>
+              {project.description}
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted" style={{
+    display: 'flex',
+    justifyContent: 'space-around'
+}}>
+              <a href={project.liveUrl}>Live Site</a>
+              <a href={project.githubUrl}>GitHub</a>
+            </small>
+          </Card.Footer>
+        </Card>
+    </Col>
+  ))}
+</Row>
+  );
+}
+
+export default Project;
