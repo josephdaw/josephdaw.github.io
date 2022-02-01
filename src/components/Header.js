@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 
-export default function TopNav() {
+export default function Header() {
     return (
         <Navbar collapseOnSelect expand="md" bg="primary" variant="dark" sticky="top">
             <Container>
