@@ -22,7 +22,7 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
             </Container>
-            <Container className="mt-4" style={{display: 'flex', justifyContent: 'center'}}>
+            <Container className="m-4" style={{display: 'flex', justifyContent: 'center'}}>
                 &copy; 2021 Joseph Daw
             </Container>
         </Container>
