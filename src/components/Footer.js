@@ -9,7 +9,7 @@ import { Col, Row } from "react-bootstrap";
 
 export default function Footer() {
     return (
-        <Container id='footer'>
+        <Container id='footer' className="mt-4">
             <Container style={{display: 'flex', justifyContent: 'space-around'}}>
                 <a className="grey-text text-lighten-3" href="http://www.github.com/josephdaw" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
@@ -22,7 +22,7 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
             </Container>
-            <Container style={{display: 'flex', justifyContent: 'center'}}>
+            <Container className="mt-4" style={{display: 'flex', justifyContent: 'center'}}>
                 &copy; 2021 Joseph Daw
             </Container>
         </Container>
