@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Home from './components/Home';
+import './App.css';
 
 export default function App() {
   return (

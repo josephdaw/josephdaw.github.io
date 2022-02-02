@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 
 export default function Project({ projects }) {
-  console.log(projects)
   return (
     <>
     {projects.map(project => (
