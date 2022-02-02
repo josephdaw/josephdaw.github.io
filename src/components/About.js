@@ -24,7 +24,7 @@ function About() {
         marginTop: '-58px',
       }}>
         <Col>
-          <img src={Joseph} alt="picture of Joseph" style={{ maxHeight: '40vh', display: 'flex' }} />
+          <img src={Joseph} alt="picture of Joseph" style={{ maxHeight: '40vh', display: 'flex', margin: 'auto' }} />
         </Col>
 
         <Col>
