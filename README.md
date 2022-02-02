@@ -8,6 +8,11 @@ As I learn new technologies and improve my coding skills I plan to update this p
 
 You can [view the current version](https://josephdaw.github.io/) on Github Pages at https://josephdaw.github.io/.
 
+## Iteration #3
+![React](https://img.shields.io/badge/react-%61DAFB.svg?&logo=react&logoColor=white)
+
+This version is using React and React Router to make this website. This is my first experience playing around with React. I am enjoying the ability to create components and re-use them; for example the NavBar. I still have a long way to go until I feel completely comfortable using React.
+
 ## Iteration #2
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&logo=css3&logoColor=white)

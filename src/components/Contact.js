@@ -38,22 +38,20 @@ function Contact() {
         <Form.Group id='email' className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" value={email} onChange={handleChange}/>
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Message</Form.Label>
           <Form.Control type="text" placeholder="Type your message" />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
-
+        <Form.Group className="mb-3" controlId="formButton">
         <Button variant="primary" type="submit">
           Submit
         </Button>
+        </Form.Group>
+        <Form.Text className="text-muted">
+            Please note that this form is a work in progress and does not send an email yet.
+          </Form.Text>
       </Form>
     </Row>
   );
