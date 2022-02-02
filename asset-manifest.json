@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.061531a0.css",
-    "main.js": "/static/js/main.7112e1be.js",
+    "main.js": "/static/js/main.1e21a478.js",
     "static/media/css-snippet-cheatsheet.png": "/static/media/css-snippet-cheatsheet.c7dc0e618b2d501d6d28.png",
     "static/media/rock-paper-scissors.png": "/static/media/rock-paper-scissors.2786c98f79385c8d2b37.png",
     "static/media/workday-planner.png": "/static/media/workday-planner.2abb804fa0fceb07cf90.png",
+    "static/media/joseph.jpg": "/static/media/joseph.b41feb2ca5e415819818.jpg",
     "static/media/weather-search-results.png": "/static/media/weather-search-results.0443357d07ce5a1c231b.png",
     "static/media/lets-go-somewhere.png": "/static/media/lets-go-somewhere.35b5f534cfdec32aa0cf.png",
     "static/media/instant-crypto.png": "/static/media/instant-crypto.86f46f7538d6ed2eb027.png",
     "index.html": "/index.html",
     "main.061531a0.css.map": "/static/css/main.061531a0.css.map",
-    "main.7112e1be.js.map": "/static/js/main.7112e1be.js.map"
+    "main.1e21a478.js.map": "/static/js/main.1e21a478.js.map"
   },
   "entrypoints": [
     "static/css/main.061531a0.css",
-    "static/js/main.7112e1be.js"
+    "static/js/main.1e21a478.js"
   ]
 }
