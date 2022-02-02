@@ -9,13 +9,15 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Home from './components/Home';
 
 export default function App() {
   return (
     <div id="home">
       <Header />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
       </Routes>

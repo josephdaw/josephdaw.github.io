@@ -3,10 +3,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert'
+import Alert from 'react-bootstrap/Alert';
+import { useState } from "react";
+
 
 
 function Contact() {
+
+  const [email, setEmail] = useState();
+  
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  }
+
   return (
     <Row id="contact" xs={1} md={2} lg={3} className="g-4 mx-2" style={{
       marginLeft: '0px',
@@ -26,9 +35,9 @@ function Contact() {
           <Form.Control type="text" placeholder="Name" />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group id='email' className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" placeholder="Enter email" value={email} onChange={handleChange}/>
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
           </Form.Text>
@@ -42,10 +51,6 @@ function Contact() {
           </Form.Text>
         </Form.Group>
 
-        <Alert variant='danger'>
-          This is a danger alert—check it out!
-        </Alert>
-        
         <Button variant="primary" type="submit">
           Submit
         </Button>
