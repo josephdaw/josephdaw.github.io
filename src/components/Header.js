@@ -9,7 +9,9 @@ export default function Header() {
     return (
         <Navbar collapseOnSelect expand="md" bg="primary" variant="dark" sticky="top">
             <Container>
-                <Navbar.Brand href="/about">Joseph Daw</Navbar.Brand>
+                <Navbar.Brand>
+                    <NavLink to="about" >Joseph Daw</NavLink>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
