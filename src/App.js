@@ -8,7 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-import Home from './components/Home';
+import Resume from './components/Resume';
 import './App.css';
 
 export default function App() {
@@ -20,6 +20,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
       </Routes>
       <Footer />
     </div>

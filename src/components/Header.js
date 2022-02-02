@@ -15,7 +15,8 @@ export default function Header() {
                     <Nav className="me-auto">
                         <NavLink to="about" activeclassname="active">About Me</NavLink>
                         <NavLink to="portfolio" activeclassname="active">Portfolio</NavLink>
-                        <NavLink to="contact" activeclassname="active">Contact Me</NavLink>
+                        <NavLink to="contact" activeclassname="active">Contact</NavLink>
+                        <NavLink to="resume" activeclassname="active">Resume</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
